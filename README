@@ -1,0 +1,18 @@
+===== DESCRIPTION
+
+Simple (but heavily parameterized) tool for testing genetic algorithms on the traveling saleman problem. All parameters are optional, and have default values; the real value of this tool is to learn how various variables in genetic algorithm impact its efficacy.
+
+===== DEPENDENCIES
+
+Requires Java 5 or later.
+
+===== USAGE
+
+For usage information:
+
+java -Xmx512m -jar GeneticAlgorithm-TravelingSalesman.jar --help
+
+To run with all default values, simply don't pass any parameters:
+
+java -Xmx512m -jar GeneticAlgorithm-TravelingSalesman.jar
+
